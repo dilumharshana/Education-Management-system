@@ -1,0 +1,144 @@
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Education Center.exe.config
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Education Center.exe
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Education Center.pdb
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Guna.UI.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Guna.UI2.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.csprojAssemblyReference.cache
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.exe.config
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Login.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.Properties.Resources.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.csproj.GenerateResource.cache
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.csproj.CoreCompileInputs.cache
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.csproj.CopyComplete
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.exe
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education Center.pdb
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Alert.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Home.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_student.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_teacher.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Dashbord.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Settings.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\obj\Debug\Education_Center.frm_Subject.resources
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\LMS\2nd year 1st sem\Mini project\Education center\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Education Center.exe.config
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Education Center.exe
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Education Center.pdb
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Guna.UI.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Guna.UI2.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.csprojAssemblyReference.cache
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.exe.config
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Login.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Alert.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Dashbord.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Home.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Settings.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_student.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Subject.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_teacher.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.Properties.Resources.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.csproj.GenerateResource.cache
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.csproj.CoreCompileInputs.cache
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.csproj.CopyComplete
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.exe
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education Center.pdb
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_Details.resources
+C:\Users\Kavindu Wijesekara\source\Repos\mini project\Education center\obj\Debug\Education_Center.frm_EditDetails.resources
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Education Center.exe.config
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Education Center.exe
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Education Center.pdb
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Login.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Alert.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Dashbord.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Details.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_EditDetails.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Home.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Settings.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_student.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_Subject.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_teacher.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.Properties.Resources.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.csproj.GenerateResource.cache
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.csproj.CoreCompileInputs.cache
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.csproj.CopyComplete
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.exe
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.pdb
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\mongocrypt.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\snappy32.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\snappy64.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\libzstd.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\DnsClient.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\EntityFramework.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Bson.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Driver.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.LibMongocrypt.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\SharpCompress.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\System.Buffers.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\DnsClient.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\EntityFramework.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Bson.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Driver.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\System.Buffers.xml
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.otp.resources
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.class_attend.resources
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_TeacherDetails.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.frm_TeacherEditDetails.resources
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.message.resources
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Twilio.dll
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Dilum\Desktop\Education Center\bin\Debug\Twilio.xml
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education Center.csprojAssemblyReference.cache
+C:\Users\Dilum\Desktop\Education Center\obj\Debug\Education_Center.display_error.resources

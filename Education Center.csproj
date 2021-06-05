@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CB2DFAE-6070-45AE-BE83-F333C0AA6BCA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Education_Center</RootNamespace>
+    <AssemblyName>Education Center</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Education_Center.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\..\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\..\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\..\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient, Version=1.3.1.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
+      <HintPath>packages\DnsClient.1.3.1\lib\net471\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>C:\Users\Kavindu Wijesekara\Documents\Frameworks\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MongoDB.Bson, Version=2.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Bson.2.12.0-beta1\lib\net452\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Driver.2.12.0-beta1\lib\net452\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Driver.Core.2.12.0-beta1\lib\net452\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.LibMongocrypt, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.LibMongocrypt.1.1.0-beta02\lib\net452\MongoDB.LibMongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress, Version=0.23.0.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
+      <HintPath>packages\SharpCompress.0.23.0\lib\net45\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Twilio, Version=5.61.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Twilio.5.61.1\lib\net451\Twilio.dll</HintPath>
+    </Reference>
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="attendance\attend_ctrl.cs" />
+    <Compile Include="attendance\attend_model.cs" />
+    <Compile Include="attendance\mark_stdr.cs" />
+    <Compile Include="attendance\mark_std.cs" />
+    <Compile Include="Btn_Home.cs" />
+    <Compile Include="dbconnector.cs" />
+    <Compile Include="display_error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="display_error.Designer.cs">
+      <DependentUpon>display_error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="erors\error.cs" />
+    <Compile Include="graphs\streamincome.cs" />
+    <Compile Include="messaging\message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messaging\message.Designer.cs">
+      <DependentUpon>message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messaging\Send email.cs" />
+    <Compile Include="email\emailr.cs" />
+    <Compile Include="email\emailw.cs" />
+    <Compile Include="graphs\registerddata.cs" />
+    <Compile Include="graphs\incomeclassess.cs" />
+    <Compile Include="graphs\attendance.cs" />
+    <Compile Include="graphs\streamdata.cs" />
+    <Compile Include="graphs\weekclasses.cs" />
+    <Compile Include="home\parentr.cs" />
+    <Compile Include="home\search_ctrl.cs" />
+    <Compile Include="home\studentr.cs" />
+    <Compile Include="insight\class_attend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insight\class_attend.Designer.cs">
+      <DependentUpon>class_attend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login\logindata.cs" />
+    <Compile Include="login\login_ctrl.cs" />
+    <Compile Include="login\login_model.cs" />
+    <Compile Include="mongo.cs" />
+    <Compile Include="settings\changepass.cs" />
+    <Compile Include="otp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otp.Designer.cs">
+      <DependentUpon>otp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sms.cs" />
+    <Compile Include="student Registration\parent.cs" />
+    <Compile Include="student Registration\student.cs" />
+    <Compile Include="student Registration\student_model.cs" />
+    <Compile Include="stater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stater.Designer.cs">
+      <DependentUpon>stater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Alert.Designer.cs">
+      <DependentUpon>frm_Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insight\frm_Dashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insight\frm_Dashbord.Designer.cs">
+      <DependentUpon>frm_Dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="students\frm_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="students\frm_Details.Designer.cs">
+      <DependentUpon>frm_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="students\frm_EditDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="students\frm_EditDetails.Designer.cs">
+      <DependentUpon>frm_EditDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home\frm_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home\frm_Home.Designer.cs">
+      <DependentUpon>frm_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settings\frm_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings\frm_Settings.Designer.cs">
+      <DependentUpon>frm_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="students\frm_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="students\frm_student.Designer.cs">
+      <DependentUpon>frm_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subjects\frm_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subjects\frm_Subject.Designer.cs">
+      <DependentUpon>frm_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student Registration\std_reg_ctrl.cs" />
+    <Compile Include="students\mark_feesr.cs" />
+    <Compile Include="students\mark_fees.cs" />
+    <Compile Include="subjects\studentinsert.cs" />
+    <Compile Include="subjects\subjectr.cs" />
+    <Compile Include="teacher\frm_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacher\frm_teacher.designer.cs">
+      <DependentUpon>frm_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\frm_TeacherDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacher\frm_TeacherDetails.designer.cs">
+      <DependentUpon>frm_TeacherDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\frm_TeacherEditDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacher\frm_TeacherEditDetails.designer.cs">
+      <DependentUpon>frm_TeacherEditDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacher\teacher.cs" />
+    <Compile Include="teacher\teacherR.cs" />
+    <Compile Include="teacher\teacher_model.cs" />
+    <Compile Include="teacher\teacher_reg.cs" />
+    <EmbeddedResource Include="display_error.resx">
+      <DependentUpon>display_error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messaging\message.resx">
+      <DependentUpon>message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stater.resx">
+      <DependentUpon>stater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Alert.resx">
+      <DependentUpon>frm_Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insight\class_attend.resx">
+      <DependentUpon>class_attend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insight\frm_Dashbord.resx">
+      <DependentUpon>frm_Dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="students\frm_Details.resx">
+      <DependentUpon>frm_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="students\frm_EditDetails.resx">
+      <DependentUpon>frm_EditDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home\frm_Home.resx">
+      <DependentUpon>frm_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otp.resx">
+      <DependentUpon>otp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings\frm_Settings.resx">
+      <DependentUpon>frm_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="students\frm_student.resx">
+      <DependentUpon>frm_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subjects\frm_Subject.resx">
+      <DependentUpon>frm_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="teacher\frm_teacher.resx">
+      <DependentUpon>frm_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacher\frm_TeacherDetails.resx">
+      <DependentUpon>frm_TeacherDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacher\frm_TeacherEditDetails.resx">
+      <DependentUpon>frm_TeacherEditDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apluslogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erroricon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_email_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_password_52px_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_52px_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\succesicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exiticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belliconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belliconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booksiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booksiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exiticonB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exiticonW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneyiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneyiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studenticonB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studenticonW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachericonB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachericonW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charticonB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charticonW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreeeniconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreeeniconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_multiply_55px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_multiply_55px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizeiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizeiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchiconB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchiconW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="mongocrypt.dll" />
+    <None Include="Resources\23659846.jpg" />
+    <None Include="Resources\online-education_52683-6977.jpg" />
+    <None Include="Resources\online-education_52683-69781.jpg" />
+    <None Include="Resources\online-education_52683-6978.jpg" />
+    <None Include="Resources\happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-100883.jpg" />
+    <None Include="Resources\employees-with-laptops-learning-professional-trainig_335657-32982.jpg" />
+    <None Include="Resources\happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-100882.jpg" />
+    <None Include="Resources\happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-100881.jpg" />
+    <None Include="Resources\female-teacher-explaining-lesson-students_179970-988.jpg" />
+    <None Include="Resources\employees-with-laptops-learning-professional-trainig_335657-32981.jpg" />
+    <None Include="Resources\employees-with-laptops-learning-professional-trainig_335657-3298.jpg" />
+    <None Include="Resources\2796195-200.png" />
+    <None Include="Resources\happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.jpg" />
+    <None Include="Resources\happy-diverse-students-celebrating-graduation-from-school_74855-58531.jpg" />
+    <None Include="Resources\happy-diverse-students-celebrating-graduation-from-school_74855-5853.jpg" />
+    <None Include="Resources\new-year-resolution-plan-for-fresh-graduate-student-free-vector.jpg" />
+    <None Include="Resources\teacher-standing-near-blackboard-holding-stick-isolated-flat-vector-illustration-cartoon-woman-character-near-chalkboard-pointing-alphabet_74855-8600.jpg" />
+    <None Include="Resources\web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\MongoDB.LibMongocrypt.1.1.0-beta02\build\MongoDB.Libmongocrypt.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MongoDB.LibMongocrypt.1.1.0-beta02\build\MongoDB.Libmongocrypt.targets'))" />
+    <Error Condition="!Exists('packages\MongoDB.Driver.Core.2.12.0-beta1\build\MongoDB.Driver.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MongoDB.Driver.Core.2.12.0-beta1\build\MongoDB.Driver.Core.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\MongoDB.LibMongocrypt.1.1.0-beta02\build\MongoDB.Libmongocrypt.targets" Condition="Exists('packages\MongoDB.LibMongocrypt.1.1.0-beta02\build\MongoDB.Libmongocrypt.targets')" />
+  <Import Project="packages\MongoDB.Driver.Core.2.12.0-beta1\build\MongoDB.Driver.Core.targets" Condition="Exists('packages\MongoDB.Driver.Core.2.12.0-beta1\build\MongoDB.Driver.Core.targets')" />
+</Project>
