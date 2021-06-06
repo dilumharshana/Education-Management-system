@@ -91,7 +91,7 @@ namespace Education_Center
                                                                     {
 
                                                                         //opening other page
-                                                                        bunifuPages1.SetPage(2);
+                                                                        bunifuPages1.SetPage(1);
                                                                     }
                                                                     else
                                                                     {
